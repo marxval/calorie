@@ -1,8 +1,8 @@
 import React from 'react'
 import { useIdentityContext } from "react-netlify-identity-widget"
 import "react-netlify-identity-widget/styles.css"
-import Router from './routes/index'
-import Loading from "./components/Loading";
+// import Router from './routes/index'
+// import Loading from "./components/Loading";
 
 
 const IdentityModal = React.lazy(() => import("react-netlify-identity-widget"))
